@@ -1,4 +1,4 @@
-# Pyspark-Tutorial
+# Pyspark-Tutorial<br/>
 
 To resolve the issue of big data, hadoop was released.
 Hadoop had three main parts -> HDFS (Hadoop Distributed File System), Map Reduce (the computation engine) and YARN (Yet Another Resource Negotiator)
