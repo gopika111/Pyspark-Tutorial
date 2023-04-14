@@ -1,0 +1,28 @@
+1. Install Java version JDK
+Search for Java JDK 1.8 download
+2. Install Python
+3. Download and Extract Apache Spark
+Spark Version - 3.3.2
+4. Setting Environment Variables for Java, Python and PySpark
+Spark_Home = C:\Spark
+Path Variable = C:\Spark\bin
+
+Java_Home = C:\Program Files\Java\jdk1.8.0_301
+Path_Variable = C:\Program Files\Java\jdk1.8.0_301\bin
+
+Python_Home = C:\Python39
+Path_Variable = C:\Python39\Scripts
+5. Installing winutils.exe
+Download winutils.exe from github for the corresponding spark version.
+Place the winutils in spark/bin
+6. Configuring log level for Spark
+7. Create conda environment
+After downloading Anaconda prompt, to create a new environment use the below command
+conda install -c  conda-forge findspark
+Then, pip install pyspark
+Then, use the command "jupyter notebook"
+
+After opening jupyter notebook, we can make use of the command import findspark
+findspark library checks if spark is installed or not
+findspark.find()
+
