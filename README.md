@@ -7,3 +7,7 @@ Later on Apache Spark was released. In **Apache Spark**, the computation engine 
 Spark can be operated in two modes :- **Distributed** and **Standalone**
 Distributed - If we use HDFS and YARN is Spark Cluster
 Standalone - If we do not use HDFS and YARN is Spark Cluster
+<br/>
+<br/>
+Main features of Spark :- **In Memory Computation, Parallel Processing and Lazy Execution**<br/>
+The main difference between Spark and Hadoop is that Spark is just a computation engine while Hadoop has Storage, Computation and Resource Manager.<br/>
