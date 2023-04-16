@@ -1,10 +1,17 @@
 # Pyspark-Tutorial<br/>
-**Pyspark** is a Python API for **Apache Spark**. >br/>
+**Pyspark** is a Python API for **Apache Spark**. <br/>
 **Apache Spark** is an open-source analytics engine for large-scale data processing.<br/>
+
+**History of Apache Spark**
 To resolve the issue of **Big Data**, **Hadoop** was released.<br/>
 **Hadoop** had three main parts -> **HDFS (Hadoop Distributed File System), Map Reduce (the computation engine) and YARN (Yet Another Resource Negotiator)**<br/>
 Working of Hadoop -> There was a Master Node and multiple Slave Nodes. The process requests comes directly to the Master Node and is splitted across Slave Nodes for processing.<br/>
-Later on Apache Spark was released. In **Apache Spark**, the computation engine is **Spark**.**Storage** can be **Local/HDFS/Amazon S3** and **Resource Manager** can be **YARN/MESOS/KUBERNETES**.
+Later on Apache Spark was released. In **Apache Spark**, the computation engine is **Spark**.**Storage** can be **Local/HDFS/Amazon S3** and **Resource Manager** can be **YARN/MESOS/KUBERNETES**.<br/>
+
+**PySpark Architecture**<br/>
+Apache Spark works in a master-slave architecture where master is the driver and slaves are called workers. The entry point of the Spark Application 
+starts with the creation of Spark Context by the driver. The resources are managed by the cluster manager.<br/>
+
 Spark can be operated in two modes :- **Distributed** and **Standalone**
 Distributed - If we use HDFS and YARN is Spark Cluster
 Standalone - If we do not use HDFS and YARN is Spark Cluster
