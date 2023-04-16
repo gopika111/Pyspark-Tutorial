@@ -10,11 +10,11 @@ Later on Apache Spark was released. In **Apache Spark**, the computation engine 
 
 **PySpark Architecture**<br/>
 Apache Spark works in a master-slave architecture where master is the driver and slaves are called workers. The entry point of the Spark Application 
-starts with the creation of Spark Context by the driver. The resources are managed by the cluster manager.<br/>
+starts with the creation of Spark Context by the driver. The resources are managed by the cluster manager. Cluster Manager is a platform where we can run a Spark Cluster.If we want to run a Spark Cluster on our computer or laptop, the Custer Manager can be mentioned as local.<br/>
 
-Spark can be operated in two modes :- **Distributed** and **Standalone**
-Distributed - If we use HDFS and YARN is Spark Cluster
-Standalone - If we do not use HDFS and YARN is Spark Cluster
+Spark can be operated in two modes :- **Distributed** and **Standalone**<br/>
+Distributed - If we use HDFS and YARN in Spark Cluster<br/>
+Standalone -Simple cluster manager incorporated with Spark
 <br/>
 <br/>
 Main features of Spark :- **In Memory Computation, Parallel Processing and Lazy Execution**<br/>
