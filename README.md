@@ -11,3 +11,6 @@ Standalone - If we do not use HDFS and YARN is Spark Cluster
 <br/>
 Main features of Spark :- **In Memory Computation, Parallel Processing and Lazy Execution**<br/>
 The main difference between Spark and Hadoop is that Spark is just a computation engine while Hadoop has Storage, Computation and Resource Manager.<br/>
+
+**NOTE** :- Whenever working with a smaller dataset, python pandas can also be used. The main difference between pandas and pysaprk is that pandas is not distributed
+that is it works on a single node.
