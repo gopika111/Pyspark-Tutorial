@@ -1,5 +1,6 @@
 # Pyspark-Tutorial<br/>
-
+**Pyspark** is a Python API for **Apache Spark**. >br/>
+**Apache Spark** is an open-source analytics engine for large-scale data processing.<br/>
 To resolve the issue of **Big Data**, **Hadoop** was released.<br/>
 **Hadoop** had three main parts -> **HDFS (Hadoop Distributed File System), Map Reduce (the computation engine) and YARN (Yet Another Resource Negotiator)**<br/>
 Working of Hadoop -> There was a Master Node and multiple Slave Nodes. The process requests comes directly to the Master Node and is splitted across Slave Nodes for processing.<br/>
